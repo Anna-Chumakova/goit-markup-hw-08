@@ -1,0 +1,54 @@
+.adge {
+    @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    }
+    @media screen and (min-width: 1200px) {
+        flex-wrap: nowrap;
+    }
+}
+.adge__item {
+    @media screen and (max-width: 767px) {
+        max-width: 480px;
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 4 * 15px) / 2);
+        margin: 15px;
+    }
+    @media screen and (min-width: 1200px) {
+    width: calc((100% - 8 * 15px) / 4);
+    margin: 15px;
+    }
+}
+
+.adge__icon-background {
+    height: 120px;
+    background-color: var(--section-team-background);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adge__icon {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+.adge__subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.adge__text {
+    margin-top: 0;
+    margin-bottom: 0;
+}

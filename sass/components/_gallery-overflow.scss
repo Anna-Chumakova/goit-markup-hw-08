@@ -1,0 +1,26 @@
+.gallery-overflow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 63px 24px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color: var(--select-color);
+    transform: translateY(100%);
+    transition: transform 250ms var(--timing-function);
+    .gallery-link:hover &,
+    .gallery-link:focus & {
+        transform: translateY(0);
+    }
+}
+

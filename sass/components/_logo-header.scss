@@ -1,0 +1,22 @@
+/*header-logo*/
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--select-color);
+}
+
+.logo__item {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.logo__header-nav {
+    display: flex;
+    margin-right: 93px;
+}
