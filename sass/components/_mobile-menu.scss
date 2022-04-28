@@ -66,6 +66,9 @@
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: #2196F3;
+    @media screen and (max-width: 479px) {
+        font-size: 28px;
+    }
     &--mail {
         font-family: 'Roboto';
         font-style: normal;
@@ -99,4 +102,7 @@
     letter-spacing: 0.02em;
     
     color: #2196F3;
+    @media screen and (max-width: 479px) {
+        font-size: 12px;
+    }
 }
