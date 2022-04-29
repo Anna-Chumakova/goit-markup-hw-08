@@ -1059,7 +1059,7 @@ img {
   margin-top: 0;
   margin-bottom: 20px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer__logo {
     display: flex;
     justify-content: center;
@@ -1103,6 +1103,11 @@ img {
     display: flex;
     align-items: baseline;
     flex-grow: 1;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .footer__form {
     margin-right: 93px;
   }
 }
@@ -1112,7 +1117,12 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
+  .address__logo {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .address__logo {
     margin-right: 70px;
     flex-grow: 1;
@@ -1120,17 +1130,22 @@ img {
 }
 
 .address__item {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
-@media screen and (max-width: 767px) {
+.address__item:last-child {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 1199px) {
   .address__item {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
-.address__item:last-child {
-  margin-bottom: 0;
+@media screen and (min-width: 1200px) {
+  .address__item {
+    margin-bottom: 9px;
+  }
 }
 
 .address__link--light,
@@ -1156,12 +1171,6 @@ img {
   color: var(--select-color);
 }
 
-@media screen and (max-width: 767px) {
-  .address {
-    margin-bottom: 60px;
-  }
-}
-
 .footer__text {
   font-family: Roboto;
   font-style: normal;
@@ -1182,14 +1191,15 @@ img {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .social-block__footer {
+    margin-bottom: 60px;
+  }
+}
+
 .social__footer {
   display: flex;
   justify-content: center;
-}
-@media screen and (max-width: 767px) {
-  .social__footer {
-    margin-bottom: 60px;
-  }
 }
 
 .social__item {
@@ -1227,18 +1237,20 @@ img {
   }
 }
 
-.footer__label {
-  margin-right: 12px;
-}
-.footer__label:last-child {
-  margin-right: 0;
-}
 @media screen and (max-width: 1199px) {
   .footer__label {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__label {
+    margin-right: 12px;
+  }
+  .footer__label:last-child {
+    margin-right: 0;
   }
 }
 

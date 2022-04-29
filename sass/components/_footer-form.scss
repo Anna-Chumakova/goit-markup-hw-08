@@ -7,15 +7,17 @@
     
 }
 .footer__label {
-    margin-right: 12px;
-    &:last-child {
-        margin-right: 0;
-    }
     @media screen and (max-width: 1199px) {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 12px;
+        &:last-child {
+            margin-right: 0;
+        }
     }
 }
 

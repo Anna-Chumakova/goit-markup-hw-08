@@ -15,12 +15,14 @@
     margin-bottom: 20px;
     display: inline-block;
 }
+.social-block__footer {
+    @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+    }
+}
 .social__footer {
     display: flex;
     justify-content: center;
-    @media screen and (max-width: 767px) {
-        margin-bottom: 60px;
-    }
 }
 .social__item {
     margin-right: 10px;
