@@ -64,9 +64,10 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-color);
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 28px;
     @media screen and (min-width: 1200px) {
     font-size: 36px;
+    margin-bottom: 50px;
     }
 }

@@ -113,7 +113,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 28px;
 }
 @media screen and (min-width: 1200px) {
@@ -121,6 +121,7 @@ img {
 .team__title,
 .clients__title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -314,8 +315,22 @@ img {
 }
 
 .header-nav {
-  padding: 24px 0;
   border-bottom: 1px solid #ececec;
+}
+@media screen and (max-width: 767px) {
+  .header-nav {
+    padding: 16px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-nav {
+    padding: 21px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-nav {
+    padding: 24px 0;
+  }
 }
 
 .header-nav__container {
@@ -356,6 +371,11 @@ img {
 .nav__link:hover, .nav__link:focus {
   color: var(--select-color);
 }
+@media screen and (max-width: 1199px) {
+  .nav__link {
+    padding: 36px 0;
+  }
+}
 
 .nav__link--current {
   color: var(--select-color);
@@ -386,11 +406,13 @@ img {
   }
 }
 
-.contacts__item {
-  margin-bottom: 10px;
-}
-.contacts__item:last-child {
-  margin-bottom: 0;
+@media screen and (max-width: 1199px) {
+  .contacts__item {
+    margin-bottom: 10px;
+  }
+  .contacts__item:last-child {
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 1200px) {
   .contacts__item {
@@ -486,13 +508,13 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 44px;
     line-height: 1.36;
-    margin-top: 0;
-    margin-bottom: 30px;
   }
 }
 
@@ -844,6 +866,13 @@ img {
   color: var(--secondary-color);
   margin-top: 0;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .adge__subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .adge__text {
@@ -1292,6 +1321,11 @@ img {
 }
 .filter-item:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 767px) {
+  .filter-item:not(:nth-child(n+4)) {
+    margin-bottom: 15px;
+  }
 }
 
 .filter-btn {

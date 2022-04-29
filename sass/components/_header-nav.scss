@@ -1,6 +1,14 @@
 .header-nav {
-    padding: 24px 0;
     border-bottom: 1px solid #ececec;
+    @media screen and (max-width: 767px) {
+        padding: 16px 0;
+    }
+    @media screen and (min-width: 768px) {
+        padding: 21px 0;
+    }
+    @media screen and (min-width: 1200px) {
+        padding: 24px 0;
+    }
 }
 .header-nav__container {
     display: flex;
@@ -34,6 +42,9 @@
     &:hover,
     &:focus {
         color: var(--select-color);
+    }
+    @media screen and (max-width: 1199px) {
+        padding: 36px 0;
     }
 }
 .nav__link--current {
