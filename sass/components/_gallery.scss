@@ -62,19 +62,3 @@
     overflow: hidden;
     
 }
-.gallery-img {
-    @media screen and (max-width: 767px) {
-        width: 450px;
-        height: 294px;
-    }
-    
-    @media screen and (min-width: 768px) {
-        min-width: 354px;
-        height: 294px;
-    }
-    
-    @media screen and (min-width: 1200px) {
-        min-width: 370px;
-        height: 294px;
-    }
-}

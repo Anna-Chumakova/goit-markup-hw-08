@@ -89,25 +89,6 @@ img {
   display: block;
 }
 
-@media screen and (min-width: 480px) {
-  .team__img {
-    width: 450px;
-    height: 460px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .team__img {
-    width: 354px;
-    height: 374px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team__img {
-    width: 270px;
-    height: 260px;
-  }
-}
-
 .work__title,
 .team__title,
 .clients__title {
@@ -1427,25 +1408,6 @@ img {
   position: relative;
   cursor: help;
   overflow: hidden;
-}
-
-@media screen and (max-width: 767px) {
-  .gallery-img {
-    width: 450px;
-    height: 294px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .gallery-img {
-    min-width: 354px;
-    height: 294px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .gallery-img {
-    min-width: 370px;
-    height: 294px;
-  }
 }
 
 .gallery-overflow {
