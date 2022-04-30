@@ -1,10 +1,8 @@
 .filter-flex {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 40px;
-    @media screen and (max-width: 767px) {
-        
-    }
+    margin-bottom: 25px;
+   
     
     @media screen and (min-width: 768px) {
         
@@ -18,17 +16,15 @@
    
 }
 .filter-item {
-    margin-right: 8px;
-    &:last-child {
-        margin-right: 0;
+    &:not(:last-child) {
+        margin-right: 8px;
     }
 @media screen and (max-width: 767px) {
-    &:not(:nth-child(n + 4)) {
-margin-bottom: 15px;
+   
+    margin-bottom: 15px;
     }
-    
 }
-}
+
 
 .filter-btn {
     background-color: #f5f4fa;
