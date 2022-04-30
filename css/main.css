@@ -145,7 +145,12 @@ img {
 
 .logo__header-nav {
   display: flex;
-  margin-right: 93px;
+  margin-right: 88px;
+}
+@media screen and (min-width: 1200px) {
+  .logo__header-nav {
+    margin-right: 93px;
+  }
 }
 
 .menu-btn {
@@ -372,7 +377,7 @@ img {
 }
 @media screen and (max-width: 1199px) {
   .nav__link {
-    padding: 34px 0;
+    padding: 32px 0;
   }
 }
 
@@ -448,7 +453,7 @@ img {
   fill: var(--main-color);
   width: 14px;
   height: 10px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 .contacts__link:hover .contacts-envelope__icon, .contacts__link:focus .contacts-envelope__icon {
   fill: var(--select-color);
@@ -457,6 +462,7 @@ img {
   .contacts-envelope__icon {
     width: 16px;
     height: 12px;
+    margin-right: 10px;
   }
 }
 
@@ -464,7 +470,7 @@ img {
   fill: var(--main-color);
   width: 10px;
   height: 14px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 .contacts__link:focus .contacts-smartphone__icon, .contacts__link:hover .contacts-smartphone__icon {
   fill: var(--select-color);
@@ -473,6 +479,7 @@ img {
   .contacts-smartphone__icon {
     width: 10px;
     height: 16px;
+    margin-right: 10px;
   }
 }
 

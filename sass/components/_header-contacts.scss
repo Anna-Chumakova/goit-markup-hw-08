@@ -50,7 +50,7 @@
     fill: var(--main-color);
     width: 14px;
     height: 10px;
-    margin-right: 10px;
+    margin-right: 8px;
     .contacts__link:hover &,
     .contacts__link:focus & {
         fill: var(--select-color);
@@ -58,6 +58,7 @@
     @media screen and (min-width: 1200px) {
     width: 16px;
     height: 12px;
+    margin-right: 10px;
     }
 }
 
@@ -65,7 +66,7 @@
     fill: var(--main-color);
     width: 10px;
     height: 14px;
-    margin-right: 10px;
+    margin-right: 8px;
     .contacts__link:focus &,
     .contacts__link:hover & {
         fill: var(--select-color);
@@ -73,6 +74,7 @@
     @media screen and (min-width: 1200px){
     width: 10px;
     height: 16px;
+    margin-right: 10px;
     }
 }
 
