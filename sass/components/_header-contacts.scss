@@ -29,8 +29,9 @@
     display: flex;
     align-items: center;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--main-color);
     cursor: pointer;
@@ -38,6 +39,10 @@
     &:hover,
     &:focus {
         color: var(--select-color);
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.14;
     }
 }
 
