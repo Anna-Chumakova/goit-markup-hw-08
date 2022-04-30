@@ -46,6 +46,10 @@ body {
   color: var(--main-color);
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
