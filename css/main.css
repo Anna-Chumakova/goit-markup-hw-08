@@ -820,7 +820,7 @@ img {
 @media screen and (max-width: 479px) {
   .checkbox__label,
 .checkbox__link {
-    font-size: 10px;
+    font-size: 6px;
   }
 }
 @media screen and (min-width: 1200px) {
