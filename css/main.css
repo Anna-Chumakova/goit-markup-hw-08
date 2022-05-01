@@ -1347,10 +1347,13 @@ img {
 .filter-flex {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 @media screen and (max-width: 767px) {
   .filter-flex {
-    margin-bottom: 25px;
+    justify-content: initial;
+    margin-top: -15px;
+    margin-left: -8px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1365,12 +1368,18 @@ img {
   }
 }
 
-.filter-item:not(:last-child) {
-  margin-right: 8px;
+@media screen and (min-width: 768px) {
+  .filter-item:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 @media screen and (max-width: 767px) {
   .filter-item {
-    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 8px;
+  }
+  .filter-item:not(:first-child) {
+    margin-left: 8px;
   }
 }
 
