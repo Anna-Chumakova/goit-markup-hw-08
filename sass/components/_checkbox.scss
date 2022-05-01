@@ -3,7 +3,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 31px;
+    @media screen and (min-width: 1200px) {
     margin-bottom: 30px;
+    }
+    
 }
 .checkbox__input {
     position: absolute;
@@ -42,10 +46,11 @@
     font-size: 12px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    @media screen and (max-width: 479px){
-    font-size: 12px;
+    @media screen and (max-width: 479px) {
+        font-size: 10px;
     }
-    @media screen and (min-width: 768px) {
+        
+    @media screen and (min-width: 1200px) {
         line-height: 1.71;
         font-size: 14px;
     }
